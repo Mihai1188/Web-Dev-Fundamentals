@@ -1,0 +1,66 @@
+/* This is the general page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Here is the Header styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* The navigation styling */
+nav {
+    background-color: #34495e;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* The is the main layout using Flexbox */
+.layout-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* This is  the main content area  */
+main {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Sidebar area  */
+aside {
+    flex: 1;
+    background-color: #dfe6e9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* The Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
