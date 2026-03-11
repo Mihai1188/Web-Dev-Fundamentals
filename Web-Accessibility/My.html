@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Web Accessibility</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Accessible Web Page</h1>
+</header>
+
+<nav aria-label="Main Navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section>
+<h2>Accessible Image</h2>
+
+<!-- Image with alternative text for screen readers -->
+<img src="https://media.studentcrowd.net/q91/uni-logos/348.jpg?q=1757350418/400x200"
+     alt="Example placeholder image showing a grey box with text">
+
+</section>
+
+<section>
+
+<h2>Contact Form</h2>
+
+<form>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Web Development Assignment</p>
+</footer>
+
+</body>
+
+</html>
