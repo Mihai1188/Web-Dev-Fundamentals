@@ -1,61 +1,55 @@
-/* This part is the general page styling like fonts, background & color */
+/* This is the general page styling. This is the visual setting that applies to the whole web page.
+This controls Fonts, Background, colour, margins, and everything else tied to appearence.*/
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
     margin: 0;
-    background-color: #f4f4f4;
 }
 
-/* This is the header styling */
+/* this limits how wide the page can strech across the screen */
 
-header {
-    background-color: #333;
-    color: white;
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* This is the Main title */
+
+h1 {
+    color: #3c8c1e;
+    font-size: 70px;
     text-align: center;
-    padding: 20px;
+    margin-bottom: 10px;
 }
 
-/* This is the Navigation styling */
+/* Section titles are used to organise and introduce parts of the content found on the webpage */
 
-nav {
-    background-color: #555;
+h2 {
+    color: #3c8c1e;
+    font-size: 36px;
+    margin-top: 40px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+/* Paragraph styling */
+
+p {
+    line-height: 1.6;
 }
 
-nav li {
-    padding: 15px;
-}
+/* Highlights boxes with content on the webpage */
 
-nav a {
+.fact-box {
+    background-color: #3c8c1e;
     color: white;
-    text-decoration: none;
-}
-
-/* This part is for the main content styling */
-
-main {
     padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
 }
 
-/* This is for sections styling */
+/* Did you know title */
 
-section {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-/* This if the footer styling */
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
+.fact-box h3 {
+    margin-top: 0;
 }
