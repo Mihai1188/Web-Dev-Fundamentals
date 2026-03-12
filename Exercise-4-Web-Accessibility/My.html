@@ -2,62 +2,119 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise: Web Accessibility</title>
 
-    <link rel="stylesheet" href="style.css">
+<!-- Metadata for the page -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Wondering Photographer</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
-    <h1>Accessible Web Page</h1>
+
+<img src="TheDivider.png" alt="" class="decorative">
+
+<h1>The Wondering Photographer</h1>
+
+<!-- Shopping cart button -->
+<button aria-label="View shopping basket">
+    <img src="shopping.svg" alt="">
+    Basket
+</button>
+
 </header>
 
-<nav aria-label="Main Navigation">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Accessibility</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
 
 <main>
 
-<section>
-<h2>Accessible Image</h2>
+<section class="gallery">
 
-<!-- Image with text -->
-<img src="https://media.studentcrowd.net/q91/uni-logos/348.jpg?q=1757350418/400x200"
-     alt="Example placeholder image showing a grey box with text">
+<article class="photo">
 
-</section>
+<img src="images/OceanPhoto.jpg"
+alt="People sitting on white cliffs looking over the sea">
 
-<section>
+<p>
+This was from a fabulous trip to the coast of Greenland with my family.  
+The water was lovely – but very cold!
+</p>
 
-<h2>Contact Form</h2>
+<button>Add to basket</button>
 
-<form>
+</article>
 
-<label for="name">Name:</label>
-<input type="text" id="name" name="name">
 
-<label for="email">Email:</label>
-<input type="email" id="email" name="email">
+<article class="photo">
 
-<button type="submit">Submit</button>
+<img src="images/BridgePhoto.jpg"
+alt="Golden Gate Bridge photographed from below">
 
-</form>
+<p>
+A picture of the Golden Gate Bridge.  
+New York! New York!
+</p>
+
+<button>Add to basket</button>
+
+</article>
+
+
+<article class="photo">
+
+<img src="images/ValleyPhoto.jpg"
+alt="Large fjord landscape in Greenland surrounded by mountains">
+
+<p>
+Another great photo from Greenland.  
+It's a river valley where a glacier used to be.
+</p>
+
+<button>Add to basket</button>
+
+</article>
+
+
+<article class="photo">
+
+<img src="images/WaterfallPhoto.jpg"
+alt="Large waterfall falling into a pool surrounded by mossy rocks">
+
+<p>
+The waterfall made such a lovely sound.  
+I could have fallen asleep!
+</p>
+
+<button>Add to basket</button>
+
+</article>
 
 </section>
 
 </main>
 
+
 <footer>
-<p> 2026 Web Development Assignment</p>
+
+<p>Copyright The Wondering Photographer 2018.</p>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">About me</a></li>
+
+</ul>
+
+</nav>
+
 </footer>
 
 </body>
-
 </html>
